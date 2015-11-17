@@ -10,7 +10,7 @@ Since many x86 systems are now 64-bit, and portability is important, this projec
 |----------------------|------------|--------|--------------|--------------|---------------|
 | curve25519           | x86 32-bit | djb    | 265µs        | N/A          | yes           |
 | curve25519-donna-c64 | 64-bit C   | agl    | N/A          | 215µs        | yes           |
-| curve25591-donna     | Portable C | agl    | 2179µs       | 610µs        |               |
+| curve25519-donna     | Portable C | agl    | 2179µs       | 610µs        |               |
 
 (All tests run on a 2.33GHz Intel Core2)
 
